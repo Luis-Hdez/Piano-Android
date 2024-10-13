@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/btnDO"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/icon_white"
+            android:contentDescription="@string/nombredo"
+            android:onClick="DO"
+            android:src="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/btnRE"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/icon_white"
+            android:contentDescription="@string/re"
+            android:onClick="RE"
+            android:src="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/btnMI"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/icon_white"
+            android:contentDescription="@string/mi"
+            android:onClick="MI"
+            android:src="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/btnFA"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/icon_white"
+            android:contentDescription="@string/fa"
+            android:onClick="FA"
+            android:src="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/btnSOL"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/icon_white"
+            android:contentDescription="@string/sol"
+            android:onClick="SOL"
+            android:src="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/btnLA"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/icon_white"
+            android:contentDescription="@string/la"
+            android:onClick="LA"
+            android:src="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/btnSI"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/icon_white"
+            android:contentDescription="@string/si"
+            android:onClick="SI"
+            android:src="@android:color/transparent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+
+        <ImageButton
+            android:id="@+id/btnDOSostenido"
+            android:layout_width="0dp"
+            android:layout_height="240dp"
+            android:layout_weight="0.6"
+            android:background="@drawable/icon_black"
+            android:contentDescription="@string/do_sostenido"
+            android:onClick="DOSostenido"
+            android:src="@android:color/transparent" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25" />
+
+        <ImageButton
+            android:id="@+id/btnRESostenido"
+            android:layout_width="0dp"
+            android:layout_height="240dp"
+            android:layout_weight="0.6"
+            android:background="@drawable/icon_black"
+            android:contentDescription="@string/re_sostendido"
+            android:onClick="RESostenido"
+            android:src="@android:color/transparent" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/btnFASostenido"
+            android:layout_width="0dp"
+            android:layout_height="240dp"
+            android:layout_weight="0.6"
+            android:background="@drawable/icon_black"
+            android:contentDescription="@string/fa_sostenido"
+            android:onClick="FASostenido"
+            android:src="@android:color/transparent" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25" />
+
+        <ImageButton
+            android:id="@+id/btnSOLSostenido"
+            android:layout_width="0dp"
+            android:layout_height="240dp"
+            android:layout_weight="0.6"
+            android:background="@drawable/icon_black"
+            android:contentDescription="@string/sol_sostenido"
+            android:onClick="SOLSostenido"
+            android:src="@android:color/transparent" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25" />
+
+        <ImageButton
+            android:id="@+id/btnLASostenido"
+            android:layout_width="0dp"
+            android:layout_height="240dp"
+            android:layout_weight="0.6"
+            android:background="@drawable/icon_black"
+            android:contentDescription="@string/la_sostenido"
+            android:onClick="LASostenido"
+            android:src="@android:color/transparent" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+
+    </LinearLayout>
+
+</RelativeLayout>

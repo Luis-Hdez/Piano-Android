@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ExamenPractico2Piano</string>
+    <string name="nombredo">do</string>
+    <string name="re">re</string>
+    <string name="mi">mi</string>
+    <string name="fa">fa</string>
+    <string name="sol">sol</string>
+    <string name="la">la</string>
+    <string name="si">si</string>
+    <string name="do_sostenido">do sostenido</string>
+    <string name="re_sostendido">re sostendido</string>
+    <string name="fa_sostenido">fa sostenido</string>
+    <string name="sol_sostenido">sol sostenido</string>
+    <string name="la_sostenido">la sostenido</string>
+</resources>
