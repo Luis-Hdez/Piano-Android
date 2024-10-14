@@ -13,10 +13,10 @@
         android:theme="@style/Theme.ExamenPractico2Piano"
         tools:targetApi="31">
         <activity
-            android:name=".PianoInstrumentos"
+            android:name=".PianoSelva"
             android:exported="false" />
         <activity
-            android:name=".PianoSelva"
+            android:name=".PianoInstrumentos"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

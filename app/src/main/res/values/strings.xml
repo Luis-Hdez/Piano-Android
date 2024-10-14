@@ -12,4 +12,14 @@
     <string name="fa_sostenido">fa sostenido</string>
     <string name="sol_sostenido">sol sostenido</string>
     <string name="la_sostenido">la sostenido</string>
+    <string name="zebra">zebra</string>
+    <string name="monkey">monkey</string>
+    <string name="frog">frog</string>
+    <string name="elephant">elephant</string>
+    <string name="lion">lion</string>
+    <string name="imagen_de_elefante">imagen de elefante</string>
+    <string name="imagen_de_zebra">imagen de zebra</string>
+    <string name="imagen_de_rana">imagen de rana</string>
+    <string name="imagen_de_mono">imagen de mono</string>
+    <string name="imagen_de_leon">imagen de leon</string>
 </resources>

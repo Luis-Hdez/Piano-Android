@@ -1,10 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PianoSelva">
+    android:orientation="horizontal"
+    tools:context=".PianoSelva"
+    android:background="@drawable/banner_animals">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal"
+        android:paddingStart="90dp"
+        android:paddingEnd="90dp"
+        android:paddingBottom="10dp">
+
+
+        <ImageButton
+            android:id="@+id/btnlion"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/icon_key_jungle"
+            android:contentDescription="@string/lion"
+            android:elevation="10dp"
+            android:onClick="Lion">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/btnelephant"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/icon_key_jungle4"
+            android:contentDescription="@string/elephant"
+            android:elevation="10dp"
+            android:onClick="Elephant"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/btnfrog"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/icon_key_jungle2"
+            android:contentDescription="@string/frog"
+            android:elevation="10dp"
+            android:onClick="Frog"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/btnmonkey"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/icon_key_jungle5"
+            android:contentDescription="@string/monkey"
+            android:elevation="10dp"
+            android:onClick="Monkey"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/btnzebra"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/icon_key_jungle3"
+            android:contentDescription="@string/zebra"
+            android:elevation="10dp"
+            android:onClick="Zebra"
+            tools:ignore="ImageContrastCheck" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal"
+        android:paddingStart="90dp"
+        android:paddingEnd="90dp"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:padding="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/lion"
+            android:contentDescription="@string/imagen_de_leon"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/imagen_de_mono"
+            android:padding="10dp"
+            android:src="@drawable/monkey"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/imagen_de_rana"
+            android:padding="10dp"
+            android:src="@drawable/frog"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/imagen_de_zebra"
+            android:padding="10dp"
+            android:src="@drawable/zebra"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/imagen_de_elefante"
+            android:padding="10dp"
+            android:src="@drawable/elephant"
+            tools:ignore="ImageContrastCheck" />
+
+    </LinearLayout>
+
+</RelativeLayout>
