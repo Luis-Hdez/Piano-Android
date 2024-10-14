@@ -15,8 +15,6 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ImageButton btnDO, btnDOSostenido, btnRE, btnRESostenido, btnMI, btnFA, btnFASostenido, btnSOL, btnSOLSostenido, btnLA, btnLASostenido, btnSI  ;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,18 +26,18 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        btnDO = findViewById(R.id.btnDO);
-        btnDOSostenido = findViewById(R.id.btnDOSostenido);
-        btnRE = findViewById(R.id.btnRE);
-        btnRESostenido = findViewById(R.id.btnRESostenido);
-        btnMI = findViewById(R.id.btnMI);
-        btnFA = findViewById(R.id.btnFA);
-        btnFASostenido = findViewById(R.id.btnFASostenido);
-        btnSOL = findViewById(R.id.btnSOL);
-        btnSOLSostenido = findViewById(R.id.btnSOLSostenido);
-        btnLA = findViewById(R.id.btnLA);
-        btnLASostenido = findViewById(R.id.btnLASostenido);
-        btnSI = findViewById(R.id.btnSI);
+        ImageButton btnDO = findViewById(R.id.btnDO);
+        ImageButton btnDOSostenido = findViewById(R.id.btnDOSostenido);
+        ImageButton btnRE = findViewById(R.id.btnRE);
+        ImageButton btnRESostenido = findViewById(R.id.btnRESostenido);
+        ImageButton btnMI = findViewById(R.id.btnMI);
+        ImageButton btnFA = findViewById(R.id.btnFA);
+        ImageButton btnFASostenido = findViewById(R.id.btnFASostenido);
+        ImageButton btnSOL = findViewById(R.id.btnSOL);
+        ImageButton btnSOLSostenido = findViewById(R.id.btnSOLSostenido);
+        ImageButton btnLA = findViewById(R.id.btnLA);
+        ImageButton btnLASostenido = findViewById(R.id.btnLASostenido);
+        ImageButton btnSI = findViewById(R.id.btnSI);
 
     }
 

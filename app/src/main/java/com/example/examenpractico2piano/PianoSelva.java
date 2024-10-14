@@ -14,8 +14,6 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class PianoSelva extends AppCompatActivity {
 
-    private ImageButton btnlion, btnmonkey, btnfrog, btnelephant, btnzebra;
-
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,11 +26,11 @@ public class PianoSelva extends AppCompatActivity {
             return insets;
         });
 
-        btnlion = findViewById(R.id.btnlion);
-        btnmonkey = findViewById(R.id.btnmonkey);
-        btnfrog = findViewById(R.id.btnfrog);
-        btnelephant = findViewById(R.id.btnelephant);
-        btnzebra = findViewById(R.id.btnzebra);
+        ImageButton btnlion = findViewById(R.id.btnlion);
+        ImageButton btnmonkey = findViewById(R.id.btnmonkey);
+        ImageButton btnfrog = findViewById(R.id.btnfrog);
+        ImageButton btnelephant = findViewById(R.id.btnelephant);
+        ImageButton btnzebra = findViewById(R.id.btnzebra);
     }
 
     public void Lion(View view) {
