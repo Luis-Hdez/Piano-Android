@@ -22,6 +22,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/icon_white"
+            android:elevation="10dp"
             android:contentDescription="@string/nombredo"
             android:onClick="DO"
             android:src="@android:color/transparent" />

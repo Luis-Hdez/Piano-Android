@@ -22,4 +22,7 @@
     <string name="imagen_de_rana">imagen de rana</string>
     <string name="imagen_de_mono">imagen de mono</string>
     <string name="imagen_de_leon">imagen de leon</string>
+    <string name="cambiar_tipo_de_piano">Cambiar Tipo de Piano</string>
+    <string name="acerca_de_nosotros">Acerca de Nosotros</string>
+    <string name="salir">Salir</string>
 </resources>

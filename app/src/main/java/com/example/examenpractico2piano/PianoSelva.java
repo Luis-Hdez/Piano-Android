@@ -14,7 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class PianoSelva extends AppCompatActivity {
 
-    @SuppressLint("MissingInflatedId")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
