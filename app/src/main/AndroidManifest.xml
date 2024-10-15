@@ -13,14 +13,19 @@
         android:theme="@style/Theme.ExamenPractico2Piano"
         tools:targetApi="31">
         <activity
-            android:name=".PianoSelva"
+            android:name=".AcercaDe"
             android:configChanges="orientation|screenSize"
-            android:screenOrientation="landscape"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".PianoInstrumentos"
-            android:exported="false"
             android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PianoSelva"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
             android:screenOrientation="landscape" />
         <activity
             android:name=".MainActivity"

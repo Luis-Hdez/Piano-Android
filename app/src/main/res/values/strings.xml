@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ExamenPractico2Piano</string>
+    <string name="app_name">Piano Grupo 12</string>
     <string name="nombredo">do</string>
     <string name="re">re</string>
     <string name="mi">mi</string>
@@ -25,4 +25,8 @@
     <string name="cambiar_tipo_de_piano">Cambiar Tipo de Piano</string>
     <string name="acerca_de_nosotros">Acerca de Nosotros</string>
     <string name="salir">Salir</string>
+    <string name="person1">Luis Hernández</string>
+    <string name="person2">Henry Arévalo</string>
+    <string name="person3">Ricardo Melara</string>
+    <string name="person4">David González</string>
 </resources>

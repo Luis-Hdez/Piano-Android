@@ -1,0 +1,155 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".PianoInstrumentos">
+
+    <!-- Top Layout -->
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/colorPrimaryDark">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Instrumentos"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#D3c5c5"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- GridLayout for buttons -->
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="321dp"
+        android:layout_below="@id/top_layout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Primera columna (3 botones) -->
+
+        <!-- Segunda columna (2 botones) -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <!-- Botón 1 -->
+            <Button
+                android:id="@+id/bajo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_button"
+                android:drawableTop="@drawable/bajo"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF" />
+
+            <!-- Botón 2 -->
+
+            <!-- Botón 3 -->
+            <Button
+                android:id="@+id/guitarS"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_button"
+                android:drawableTop="@drawable/gs"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/guitarE"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_button"
+                android:drawableTop="@drawable/gt"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF" />
+            <!-- Botón 4 -->
+            <Button
+                android:id="@+id/trompeta"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_button"
+                android:drawableTop="@drawable/trompeta"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF" />
+
+            <!-- Botón 5 -->
+            <Button
+                android:id="@+id/drums"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_button"
+                android:drawableTop="@drawable/tambor"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

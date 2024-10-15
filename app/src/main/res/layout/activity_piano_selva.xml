@@ -10,14 +10,15 @@
     tools:context=".PianoSelva"
     android:background="@drawable/banner_animals">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="100dp"
         android:orientation="horizontal"
         android:paddingStart="90dp"
         android:paddingEnd="90dp"
-        android:paddingBottom="10dp">
+        android:paddingBottom="5dp">
 
 
         <ImageButton
@@ -33,14 +34,14 @@
         </ImageButton>
 
         <ImageButton
-            android:id="@+id/btnelephant"
+            android:id="@+id/btnmonkey"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/icon_key_jungle4"
-            android:contentDescription="@string/elephant"
+            android:contentDescription="@string/monkey"
             android:elevation="10dp"
-            android:onClick="Elephant"
+            android:onClick="Monkey"
             tools:ignore="ImageContrastCheck" />
 
         <ImageButton
@@ -55,14 +56,14 @@
             tools:ignore="ImageContrastCheck" />
 
         <ImageButton
-            android:id="@+id/btnmonkey"
+            android:id="@+id/btnelephant"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/icon_key_jungle5"
-            android:contentDescription="@string/monkey"
+            android:contentDescription="@string/elephant"
             android:elevation="10dp"
-            android:onClick="Monkey"
+            android:onClick="Elephant"
             tools:ignore="ImageContrastCheck" />
 
         <ImageButton
@@ -77,23 +78,24 @@
             tools:ignore="ImageContrastCheck" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="200dp"
         android:orientation="horizontal"
+        android:paddingTop="150dp"
         android:paddingStart="90dp"
         android:paddingEnd="90dp"
         android:paddingBottom="10dp">
 
         <ImageView
             android:layout_width="0dp"
-            android:padding="10dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:contentDescription="@string/imagen_de_leon"
             android:elevation="10dp"
-            android:src="@drawable/lion"
-            android:contentDescription="@string/imagen_de_leon"/>
+            android:padding="10dp"
+            android:src="@drawable/lion" />
 
         <ImageView
             android:layout_width="0dp"
@@ -117,19 +119,20 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:contentDescription="@string/imagen_de_zebra"
+            android:contentDescription="@string/imagen_de_elefante"
             android:padding="10dp"
-            android:src="@drawable/zebra"
+            android:src="@drawable/elephant"
             tools:ignore="ImageContrastCheck" />
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:contentDescription="@string/imagen_de_elefante"
+            android:contentDescription="@string/imagen_de_zebra"
             android:padding="10dp"
-            android:src="@drawable/elephant"
+            android:src="@drawable/zebra"
             tools:ignore="ImageContrastCheck" />
+
 
     </LinearLayout>
 

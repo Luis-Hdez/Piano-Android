@@ -1,18 +1,23 @@
 package com.example.examenpractico2piano;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Handler;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -29,8 +34,6 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
-        setContentView(R.layout.activity_main);
 
         ImageButton btnDO = findViewById(R.id.btnDO);
         ImageButton btnDOSostenido = findViewById(R.id.btnDOSostenido);
@@ -49,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void MessageBox(String msg) {
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
-
     }
 
     public void DO(View view) {
@@ -155,10 +157,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showTraditionalPiano() {
-        // Como estamos en la vista del piano tradicional, no necesitamos hacer nada
-        // Pero podríamos reiniciar la actividad si queremos "refrescar" la vista
         Intent intent = new Intent(this, MainActivity.class);
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }
 
@@ -176,4 +175,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AcercaDe.class);
         startActivity(intent);
     }
+
 }
