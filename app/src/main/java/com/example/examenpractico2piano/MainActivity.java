@@ -64,56 +64,67 @@ public class MainActivity extends AppCompatActivity {
     public void DOSostenido(View view) {
         MediaPlayer sonido = MediaPlayer.create(this, R.raw.dostretched);
         sonido.start();
+        MessageBox("DO#");
     }
 
     public void RE(View view) {
         MediaPlayer sonido = MediaPlayer.create(this, R.raw.re);
         sonido.start();
+        MessageBox("RE");
     }
 
     public void RESostenido(View view) {
         MediaPlayer sonido = MediaPlayer.create(this, R.raw.restretched);
         sonido.start();
+        MessageBox("RE#");
     }
 
     public void MI(View view) {
         MediaPlayer sonido = MediaPlayer.create(this, R.raw.mi);
         sonido.start();
+        MessageBox("MI");
     }
 
     public void FA(View view) {
         MediaPlayer sonido = MediaPlayer.create(this, R.raw.fa);
         sonido.start();
+        MessageBox("FA");
     }
 
     public void FASostenido(View view) {
         MediaPlayer sonido = MediaPlayer.create(this, R.raw.fastretched);
         sonido.start();
+        MessageBox("FA#");
     }
 
     public void SOL(View view) {
         MediaPlayer sonido = MediaPlayer.create(this, R.raw.sol);
         sonido.start();
+        MessageBox("SOL");
     }
 
     public void SOLSostenido(View view) {
         MediaPlayer sonido = MediaPlayer.create(this, R.raw.solstretched);
         sonido.start();
+        MessageBox("SOL#");
     }
 
     public void LA(View view) {
         MediaPlayer sonido = MediaPlayer.create(this, R.raw.la);
         sonido.start();
+        MessageBox("LA");
     }
 
     public void LASostenido(View view) {
         MediaPlayer sonido = MediaPlayer.create(this, R.raw.lastretched);
         sonido.start();
+        MessageBox("LA#");
     }
 
     public void SI(View view) {
         MediaPlayer sonido = MediaPlayer.create(this, R.raw.si);
         sonido.start();
+        MessageBox("SI");
     }
 
     @Override
